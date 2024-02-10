@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap avançado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    <header class="text-center">
+        <h1 id="title" class="font-weight-bold">Tudo em Amarelo (Bootstrap avançado)</h1>
+    </header>
+    <div class="container"> 
+        <div id="imagens" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="1500" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/01/02/06/28/mushroom-8482641_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Cogumelo Amarelo</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="1500" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/02/01/18/53/cosmos-8546570_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Flores Amarelas</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="1500" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/10/17/09/37/honey-bee-8320764_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Abelha do Mel</h2>
+                    </div>
+                </div>
+                <button data-bs-target="#imagens" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#imagens" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#imagens" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#imagens"  data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#imagens"  data-bs-slide-to="2"></button>
+                </div>
+            </div>      
+    </div>
+    <div class="container">
+        <h1 class="text-center">Cards</h1>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/03/26/11/40/woman-7878192_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ullam quo, a rerum molestias temporibus praesentium quia.</p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/30/01/38/vietnam-8420602_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ullam quo, a rerum molestias temporibus praesentium quia.</p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/09/11/50/cat-8377169_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ullam quo, a rerum molestias temporibus praesentium quia.</p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/03/13/11/13/scallions-7849575_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 4</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ullam quo, a rerum molestias temporibus praesentium quia.</p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/13/03/07/pond-8384421_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 5</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ullam quo, a rerum molestias temporibus praesentium quia.</p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2024/01/16/21/25/copenhagen-8513129_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 6</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ullam quo, a rerum molestias temporibus praesentium quia.</p>
+                        <a href="#" class="btn btn-primary">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        body{
+            background: linear-gradient(to bottom, rgba(255, 255, 94, 0.8), rgba(255, 255, 236, 0.8)), url('caminho_da_imagem_de_fundo.jpg');
+            background-position: center;
+            background-size: cover;
+   
+            font-family: 'Montserrat', sans-serif;
+        }
+        #title, h1{
+            margin: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        #imagens .carousel-item img {
+        height: 750px;
+        object-fit: cover; 
+        }
+
+
+        
+    </style>
+</body>
+</html>
